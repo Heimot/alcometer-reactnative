@@ -34,7 +34,6 @@ export default function App() {
   }
 
   const calculate = () => {
-    console.log(gender)
     if (weight === 0 || '') {
       alert("Please enter your weight!");
     } else {
